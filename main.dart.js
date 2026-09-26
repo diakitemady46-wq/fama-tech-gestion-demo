@@ -32864,45 +32864,47 @@ break
 case 1:return A.l(q,r)
 case 2:return A.k(o.at(-1),r)}})
 return A.m($async$dz,r)},
-rR(a){var s=0,r=A.n(t.H),q,p,o,n,m,l,k,j,i,h,g,f,e
+rR(a){var s=0,r=A.n(t.H),q,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$rR=A.o(function(b,c){if(b===1)return A.k(c,r)
-for(;;)switch(s){case 0:i=$.bj()
+for(;;)switch(s){case 0:h=$.bj()
 s=2
-return A.c(i.on(),$async$rR)
-case 2:h=c
-g=A.rk(B.fF.d_(B.dl.d_("gestionscolaire::admin")).a)
-f=J.cs(h)
-e=f.ga_(h)
-for(;;){if(!e.p()){q=null
-break}q=e.gC()
-if(q.b.toLowerCase()==="admin")break}if(q==null)q=f.ga1(h)?null:f.gR(h)
+return A.c(h.on(),$async$rR)
+case 2:g=c
+f=A.rk(B.fF.d_(B.dl.d_("gestionscolaire::Demo2026")).a)
+e=J.cs(g)
+d=e.ga_(g)
+for(;;){if(!d.p()){q=null
+break}q=d.gC()
+if(q.b.toLowerCase()==="directeur")break}if(q==null)for(d=e.ga_(g);d.p();){p=d.gC()
+if(p.b.toLowerCase()==="admin"){q=p
+break}}if(q==null)q=e.ga1(g)?null:e.gR(g)
 s=q==null?3:5
 break
 case 3:s=6
-return A.c(i.rq(new A.i5(null,"admin",g,"Administrateur","","","Administrateur",B.kx,null)),$async$rR)
+return A.c(h.rq(new A.i5(null,"directeur",f,"Traor\xe9 Aminata","","","Administrateur",B.kx,null)),$async$rR)
 case 6:s=4
 break
-case 5:f=q.a
-e=q.d
-if(B.n.N(e).length===0)e="Administrateur"
+case 5:e=q.a
+d=q.d
+if(B.n.N(d).length===0)d="Traor\xe9 Aminata"
 s=7
-return A.c(i.rq(new A.i5(f,"admin",g,e,q.e,q.f,"Administrateur",B.kx,q.x)),$async$rR)
+return A.c(h.rq(new A.i5(e,"directeur",f,d,q.e,q.f,"Administrateur",B.kx,q.x)),$async$rR)
 case 7:case 4:s=8
-return A.c(i.dK(),$async$rR)
-case 8:p=c
-f=p.a
-e=p.b
-if(B.n.N(e).length===0)e="Complexe Scolaire Les \xc9toiles de Bamako"
-o=p.d
-n=p.e
-m=p.f
-l=p.r
-k=p.w
-j=p.x
+return A.c(h.dK(),$async$rR)
+case 8:o=c
+e=o.a
+d=o.b
+if(B.n.N(d).length===0)d="Complexe Scolaire Les \xc9toiles de Bamako"
+n=o.d
+m=o.e
+l=o.f
+k=o.r
+j=o.w
+i=o.x
 s=9
-return A.c(i.pO(new A.ja(f,e,a,o,n,m,l,k,j.length===0?"XOF":j)),$async$rR)
+return A.c(h.pO(new A.ja(e,d,a,n,m,l,k,j,i.length===0?"XOF":i)),$async$rR)
 case 9:s=10
-return A.c(i.pT("setup_completed","1"),$async$rR)
+return A.c(h.pT("setup_completed","1"),$async$rR)
 case 10:return A.l(null,r)}})
 return A.m($async$rR,r)},
 aqT:function aqT(){},
@@ -123243,7 +123245,7 @@ case 7:case 1:return A.l(q,r)}})
 return A.m($async$rL,r)},
 J(a){var s,r,q=this,p=null,o=A.jV(a,A.bp(a,B.cn,t.l).w.a.b*0.84,1040),n=A.aL(B.eZ,3),m=t.p,l=A.O(p,A.S(A.a([B.IL,A.ay(!1,p,!0,B.fw,p,!0,p,p,p,p,p,p,p,p,p,p,new A.aSu(a),p,p,p,p,p,p,p)],m),B.u,B.q,B.r,0),B.t,p,p,B.fE,p,32,p,p,B.eo,p,p,p)
 if(q.x)s=B.bS
-else{s=A.a([A.S(A.a([B.alB,A.ep(p,p,p,B.anU,p,p,q.gawc(),p,p,p,"Imprimer la liste d'une classe"),B.c7,A.N(A.bqJ(B.bCS,new A.aSv(q,a),A.bqK(p,p,p,p,p,p,p,p,p,B.a_,p,p,B.ajz,p,B.cY,B.G8,p,p,p,p)),p,210),B.aL,A.N(new A.d3("AJOUTER DE NOUVELLES CLASSES +",new A.aSw(q),!1,p),p,300)],m),B.u,B.q,B.r,0)],m)
+else{s=A.a([A.S(A.a([B.alB,A.ep(p,p,p,B.anU,p,p,q.gawc(),p,p,p,"Imprimer la liste d'une classe"),B.c7,A.N(A.bqJ(B.bCT,new A.aSv(q,a),A.bqK(p,p,p,p,p,p,p,p,p,B.a_,p,p,B.ajz,p,B.cY,B.G8,p,p,p,p)),p,210),B.aL,A.N(new A.d3("AJOUTER DE NOUVELLES CLASSES +",new A.aSw(q),!1,p),p,300)],m),B.u,B.q,B.r,0)],m)
 if(J.cL(q.f)||J.cL(q.r)){if(J.cL(q.f)&&J.cL(q.r))r="Aucun cycle ni cat\xe9gorie. Cliquez ici pour les cr\xe9er (ind\xe9pendamment)."
 else r=J.cL(q.f)?"Aucun cycle. Cliquez ici pour en ajouter.":"Aucune cat\xe9gorie. Cliquez ici pour en ajouter."
 B.h.W(s,A.a([B.ag,A.aW(!1,B.T,!0,p,A.ay(!1,p,!0,new A.T(B.pH,A.S(A.a([B.aow,B.aR,A.G(A.q(r,p,p,p,p,B.bvT,p,p,p),1),B.anO],m),B.u,B.q,B.r,0),p),p,!0,p,p,p,p,p,p,p,p,p,p,new A.aSx(q,a),p,p,p,p,p,p,p),B.t,B.afr,0,p,p,p,p,p,B.a8)],m))}s.push(B.bI)
@@ -129603,7 +129605,7 @@ e=e<560?A.Y(A.a([l.K4(j,1),B.ag,l.K4(i,2)],d),B.aH,B.q,B.r):A.S(A.a([A.G(l.K4(j,
 s=A.G(l.d===1?l.aPj():l.aPk(),1)
 r=A.a([],d)
 if(l.d===2){q=l.e?k:new A.b13(l)
-r.push(new A.NK(!0,q,k,k,k,k,B.t,k,!1,k,!0,k,new A.aiX(B.bCT,B.aos,k,k,k),k))}r.push(B.dG)
+r.push(new A.NK(!0,q,k,k,k,k,B.t,k,!1,k,!0,k,new A.aiX(B.bCU,B.aos,k,k,k),k))}r.push(B.dG)
 q=l.e
 p=q?k:l.gaIG()
 o=A.ad(8)
@@ -130631,8 +130633,8 @@ r.as=this.b
 s=this.c
 r.z=s
 r.Q=!0
-if(!s){r.d.scQ("admin")
-r.e.scQ("admin")}},
+if(!s){r.d.scQ("directeur")
+r.e.scQ("Demo2026")}},
 $S:0}
 A.b2G.prototype={
 $0(){var s=this.a
@@ -130715,7 +130717,7 @@ b.push(A.aQ(j,B.Y,!1,j,!0,B.B,j,A.aS(),k.Q,j,j,j,j,j,2,q.$4$compact$prefix$suffi
 if(s)B.h.W(b,A.a([A.N(j,h,j),A.aQ(j,B.Y,!1,j,!0,B.B,j,A.aS(),k.as,j,j,j,j,j,2,q.$3$compact$prefix("Confirmer le mot de passe",i,B.JF),B.M,!0,j,!0,j,!1,j,B.a0,j,j,j,j,j,j,j,j,j,1,j,j,r,"\u2022",j,j,j,new A.b2E(k),j,!1,j,j,!1,j,!0,j,B.a4,j,j,j,j,j,j,j,j,j,j,j,B.ot,!0,B.U,j,B.a2,j,j,j,j)],l))
 r=k.w
 if(r!=null)B.h.W(b,A.a([B.ag,A.q(r,j,j,j,j,B.bzu,j,j,j)],l))
-if(k.ay)B.h.W(b,A.a([A.N(j,h,j),B.bCU],l))
+if(k.ay)B.h.W(b,A.a([A.N(j,h,j),B.bCR],l))
 b.push(A.N(j,i?14:18,j))
 s=s?"Enregistrer et entrer":"Se connecter"
 b.push(new A.Qt(k.ax,k.cx,s,i,j))
@@ -132147,7 +132149,7 @@ $2(a,b){return this.a.aLN(b)},
 $S:12}
 A.b6O.prototype={
 $0(){var s=null,r=A.ad(22),q=this.a
-return A.aW(!1,B.T,!0,s,A.ay(!1,A.ad(22),!0,new A.T(B.Ic,A.S(A.a([B.bCR,B.aR,A.G(A.q(A.dx(q.Q),s,s,s,s,B.a8m,s,s,s),1),B.aoB],t.p),B.u,B.q,B.r,0),s),s,!0,s,s,s,s,s,s,s,s,s,s,new A.b6P(q),s,s,s,s,s,s,s),B.t,B.x,0,s,s,new A.dZ(r,B.hT),s,s,B.a8)},
+return A.aW(!1,B.T,!0,s,A.ay(!1,A.ad(22),!0,new A.T(B.Ic,A.S(A.a([B.bCS,B.aR,A.G(A.q(A.dx(q.Q),s,s,s,s,B.a8m,s,s,s),1),B.aoB],t.p),B.u,B.q,B.r,0),s),s,!0,s,s,s,s,s,s,s,s,s,s,new A.b6P(q),s,s,s,s,s,s,s),B.t,B.x,0,s,s,new A.dZ(r,B.hT),s,s,B.a8)},
 $S:97}
 A.b6P.prototype={
 $0(){var s=0,r=A.n(t.H),q=this,p,o,n
@@ -164334,12 +164336,12 @@ B.bCD=new A.a8("Tout le reste",null,null,null,null,null,null,null,null,null,null
 B.bCH=new A.a8("Notes non saisies",null,B.EW,null,null,null,null,null,null,null,null)
 B.bCI=new A.a8("Cat\xe9gories",null,null,null,null,null,null,null,null,null,null)
 B.bCL=new A.a8("Classe",null,B.hM,null,null,null,null,null,null,null,null)
-B.a8w=new A.x(!0,B.d9,null,null,null,null,12,B.b1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.bCR=new A.a8("Date",null,B.a8w,null,null,null,null,null,null,null,null)
-B.bCS=new A.a8("CYCLES & CAT\xc9GORIES",null,B.a8b,null,null,null,null,null,null,null,null)
-B.bCT=new A.a8("Retour",null,null,null,null,null,null,null,null,null,null)
 B.by5=new A.x(!0,B.pm,null,"Roboto",null,null,13,B.b1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.bCU=new A.a8("D\xe9mo : identifiant admin  \u2014  mot de passe admin",null,B.by5,B.bJ,null,null,null,null,null,null,null)
+B.bCR=new A.a8("D\xe9mo : identifiant directeur  \u2014  mot de passe Demo2026",null,B.by5,B.bJ,null,null,null,null,null,null,null)
+B.a8w=new A.x(!0,B.d9,null,null,null,null,12,B.b1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.bCS=new A.a8("Date",null,B.a8w,null,null,null,null,null,null,null,null)
+B.bCT=new A.a8("CYCLES & CAT\xc9GORIES",null,B.a8b,null,null,null,null,null,null,null,null)
+B.bCU=new A.a8("Retour",null,null,null,null,null,null,null,null,null,null)
 B.bCV=new A.a8("Ann\xe9e scolaire",null,B.a8m,null,null,null,null,null,null,null,null)
 B.bCZ=new A.a8("Cible",null,B.EX,null,null,null,null,null,null,null,null)
 B.bD1=new A.a8("Import CSV / sauvegarde",null,null,null,null,null,null,null,null,null,null)
